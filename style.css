@@ -75,3 +75,47 @@
     font-size: 48px;
     font-weight: bold;
 }
+
+.info-container {
+    background-color: rgb(197, 223, 226);
+    padding: 50px;
+}
+
+.info-container .heading {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.images-desc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+    flex-wrap: wrap;
+}
+
+.image {
+    width: 200px;
+    height: 200px;
+    box-shadow: 0px 0px 15px rgb(23, 23, 70);
+}
+
+.frontend {
+    background-image: url(./images/frontend.jpg);
+    background-size: 350px auto;
+    background-position: center;
+}
+
+.backend {
+    background-image: url(./images/backend.jpg);
+    background-size: 350px auto;
+    background-position: center;
+}
+
+.fullstack {
+    background-image: url(./images/fullstack.jpg);
+    background-size: 350px auto;
+    background-position: left;
+}
