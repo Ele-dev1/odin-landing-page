@@ -78,7 +78,7 @@
 
 .info-container {
     background-color: rgb(197, 223, 226);
-    padding: 50px;
+    padding: 100px;
 }
 
 .info-container .heading {
@@ -118,4 +118,28 @@
     background-image: url(./images/fullstack.jpg);
     background-size: 350px auto;
     background-position: left;
+}
+
+.quote-section {
+    background-color: rgb(58, 67, 150);
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 100px 0;
+}
+
+.quote-here {
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    font-size: 36px;
+}
+
+.author {
+    font-size: 28px;
+    font-weight: bold;
+    align-self: flex-end;
 }
